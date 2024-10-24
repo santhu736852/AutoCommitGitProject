@@ -8,7 +8,11 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.autocommitgit.integrations:a
+- serviceName: project.autocommitgit.integrations:TestAutoCommit
   packages:
   - name: AutoCommitGitProject
     version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2015
