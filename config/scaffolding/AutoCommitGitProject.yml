@@ -8,23 +8,7 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.autocommitgit.integrations:testDebugDAF
+- serviceName: project.autocommitgit.integrations:a
   packages:
   - name: AutoCommitGitProject
     version: "1.0"
-- serviceName: pub.date:getCurrentDate
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2015
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2015
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2015
-- serviceName: pub.date:currentNanoTime
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2015
