@@ -8,7 +8,7 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.autocommitgit.integrations:Test2
+- serviceName: project.autocommitgit.integrations:Test3
   packages:
   - name: AutoCommitGitProject
     version: "1.0"
